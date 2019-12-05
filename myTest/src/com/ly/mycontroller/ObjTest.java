@@ -33,5 +33,6 @@ public class ObjTest {
         /***********************局部内部类**********************************/
         PartOuter partOuter = new PartOuter();
         partOuter.m1();
+
     }
 }
