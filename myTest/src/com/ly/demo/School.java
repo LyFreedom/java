@@ -4,6 +4,7 @@ public class School {
     public static Teacher getTeacher(int classNo){
         //局部内部类（隐藏类的信息）
         class BeginnerTeacher implements Teacher{
+
             @Override
             public void teach() {
                 System.out.println("初级老师在上课...");

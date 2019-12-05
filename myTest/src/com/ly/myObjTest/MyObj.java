@@ -20,14 +20,19 @@ package com.ly.myObjTest;
  *          instanceof用来直接比较两个对象;也可以用==来判断(对象.getClass());
  *  hashCode()方法：
  *          public int hashCode(){}
- *          返回该对象的十六进制的哈希码值。
+ *          返回该对象的十进制的哈希码值。
  *          哈希算法根据对象的地址或字符串或数字计算出来的int类型的数值。
  *          哈希码并不唯一,可保证相同对象返回相同哈希码,尽量保证不同对象返回不同哈希码.
+ *  toString()方法
+ *          public String toString(){}
+ *          返回该对象的字符串表示（表现形式）
+ *          可以根据程序需求覆盖该方法，如：展示对象各个属性值
  */
 public class MyObj {
     public static void main(String[] args) {
         Student s = new Student();
         System.out.println(s.getClass()); //class com.ly.myObjTest.Student
+        System.out.println(s);  //重写toString，打印对象的属性值
 
         Object obj = new Object();
         System.out.println(obj.getClass()); //class java.lang.Object
@@ -35,14 +40,32 @@ public class MyObj {
         Object o = new Student();
         System.out.println(o.getClass()); //class com.ly.myObjTest.Student
 
-//        if(s instanceof ){
-//
-//        }
+        if(s instanceof Student){
+            System.out.println("s是Student类型");
+        }
+        if (obj instanceof Object){
+            System.out.println("s是Object类型");
+        }
 
         if(s.getClass() == o.getClass()){
-            System.out.println("都是Student类型");
+            System.out.println("s和o都是Student类型");
         }else{
             System.out.println("不是同一种类型");
         }
+
+        System.out.println("----------------------------");
+
+        for (int i = 0; i < 5; i++) {
+            Object object = new Object();
+            //object.hashCode()是十进制的哈希码值,object是十六进制内存地址
+            System.out.println(object.hashCode()+"\t"+object);
+        }
+        //toString()方法
+        System.out.println(o.toString());
+        System.out.println("------------------------------");
+        Object o1 = new Teacher();
+        System.out.println(o1.getClass().getName());  //对象名称
+        System.out.println(Integer.toHexString(o1.hashCode())); //十进制转十六进制
+        System.out.println(o1); //重写toString（）方法后，打印对象输出的是重写的返回值Hello World!
     }
 }
