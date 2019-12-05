@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="" />
+    <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/ly/mycontroller/AnonymousOuter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UQ18s8ShC4yK5f14OylPdMQl9X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,7 +31,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
     <configuration name="ObjTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -70,6 +78,9 @@
       <updated>1575273849054</updated>
       <workItem from="1575273851816" duration="1768000" />
       <workItem from="1575427492542" duration="12836000" />
+      <workItem from="1575453896055" duration="10000" />
+      <workItem from="1575453946665" duration="30000" />
+      <workItem from="1575511377213" duration="652000" />
     </task>
     <servers />
   </component>
@@ -93,17 +104,17 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1396" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575452207828" />
-    <state x="221" y="61" key="SettingsEditor" timestamp="1575443281625">
+    <state x="221" y="61" key="SettingsEditor" timestamp="1575512045924">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575443281625" />
+    <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575512045924" />
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575427517163">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1575427517163" />
-    <state x="383" y="180" key="search.everywhere.popup" timestamp="1575439960298">
+    <state x="383" y="180" key="search.everywhere.popup" timestamp="1575511660740">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="180" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1575439960298" />
+    <state x="383" y="180" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1575511660740" />
   </component>
 </project>
