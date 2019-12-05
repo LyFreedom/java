@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ly/demo/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ly/demo/SchoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ly/demo/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/mycontroller/ObjTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/mycontroller/ObjTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ly/mycontroller/AnonymousOuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/mycontroller/AnonymousOuter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ly/mycontroller/ObjTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/mycontroller/ObjTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1UQ18s8ShC4yK5f14OylPdMQl9X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,16 +37,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ObjTest">
     <configuration name="ObjTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ly.mycontroller.ObjTest" />
       <module name="myTest" />
@@ -54,9 +56,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SchoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ly.demo.SchoolTest" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ly.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ObjTest" />
+        <item itemvalue="Application.SchoolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -84,69 +100,78 @@
       <updated>1575273849054</updated>
       <workItem from="1575273851816" duration="1768000" />
       <workItem from="1575427492542" duration="12836000" />
-      <workItem from="1575467283849" duration="1437000" />
-      <workItem from="1575468997688" duration="222000" />
-      <workItem from="1575555259965" duration="501000" />
+      <workItem from="1575453896055" duration="10000" />
+      <workItem from="1575453946665" duration="30000" />
+      <workItem from="1575511377213" duration="6524000" />
     </task>
+    <task id="LOCAL-00001" summary="匿名内部类">
+      <created>1575512144333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575512144333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="匿名内部类" />
+    <option name="LAST_COMMIT_MESSAGE" value="匿名内部类" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Notifications" timestamp="1575555517735">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1575555517735" />
-    <state x="275" y="22" key="#Project_Structure" timestamp="1575468090805">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1575468090805" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1575555345842">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575555345842" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1575468078759">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575468078759" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1575469284214">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575469284214" />
-    <state width="1396" height="218" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575452207828" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1575469284214">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575469284214" />
-    <state width="1396" height="218" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1575452207828" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1575469284214">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575469284214" />
-    <state width="1396" height="218" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1575452207828" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1575469284214">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575469284214" />
-    <state width="1396" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575452207828" />
-    <state x="210" y="0" key="SettingsEditor" timestamp="1575555725785">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="210" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575555725785" />
-    <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575443281625" />
-    <state x="394" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1575467288772">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="394" y="213" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575467288772" />
-    <state x="415" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1575427517163" />
-    <state x="401" y="154" key="git4idea.merge.GitPullDialog" timestamp="1575555758320">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="401" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1575555758320" />
-    <state x="383" y="180" key="search.everywhere.popup" timestamp="1575439960298">
+    <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1575514231872">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="180" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1575439960298" />
+    <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1575514231872" />
+    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1575512143787">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575512143787" />
+    <state width="1396" height="174" key="GridCell.Tab.0.bottom" timestamp="1575535216474">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="174" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
+    <state width="1396" height="174" key="GridCell.Tab.0.center" timestamp="1575535216474">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="174" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
+    <state width="1396" height="174" key="GridCell.Tab.0.left" timestamp="1575535216474">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="174" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
+    <state width="1396" height="174" key="GridCell.Tab.0.right" timestamp="1575535216474">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="174" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
+    <state x="221" y="61" key="SettingsEditor" timestamp="1575512045924">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575512045924" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575512392292">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575512392292" />
+    <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575427517163">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="415" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1575427517163" />
+    <state x="383" y="180" key="search.everywhere.popup" timestamp="1575511660740">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1575511660740" />
   </component>
 </project>

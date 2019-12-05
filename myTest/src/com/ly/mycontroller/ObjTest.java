@@ -33,6 +33,8 @@ public class ObjTest {
         /***********************局部内部类**********************************/
         PartOuter partOuter = new PartOuter();
         partOuter.m1();
-
+        /***********************匿名内部类**********************************/
+        System.out.println("-------------------------------------");
+        AnonymousOuter.getTeacher(3).teach();
     }
 }
