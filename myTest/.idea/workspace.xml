@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ly/demo/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ly/demo/SchoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ly/demo/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ly/myObjTest/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/mycontroller/ObjTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/mycontroller/ObjTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ly/mycontroller/AnonymousOuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/mycontroller/AnonymousOuter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ly/mycontroller/ObjTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/mycontroller/ObjTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School$1AdvencedTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School$1AdvencedTeacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School$1BeginnerTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School$1BeginnerTeacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ly/demo/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/demo/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ly/myObjTest/MyObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/myObjTest/MyObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ly/myObjTest/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/myObjTest/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +41,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.ObjTest">
+  <component name="RunManager" selected="Application.MyObj">
+    <configuration name="MyObj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ly.myObjTest.MyObj" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ly.myObjTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObjTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ly.mycontroller.ObjTest" />
       <module name="myTest" />
@@ -71,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyObj" />
         <item itemvalue="Application.ObjTest" />
         <item itemvalue="Application.SchoolTest" />
       </list>
@@ -122,7 +143,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -133,50 +156,51 @@
     <option name="LAST_COMMIT_MESSAGE" value="匿名内部类" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1575514231872">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="498" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1575561161845">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="498" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575561161845" />
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1575514231872" />
     <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1575512143787">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575512143787" />
-    <state width="1396" height="174" key="GridCell.Tab.0.bottom" timestamp="1575535216474">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1575561388290">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
     <state width="1396" height="174" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
-    <state width="1396" height="174" key="GridCell.Tab.0.center" timestamp="1575535216474">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1575561388290">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
     <state width="1396" height="174" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
-    <state width="1396" height="174" key="GridCell.Tab.0.left" timestamp="1575535216474">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1575561388290">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
     <state width="1396" height="174" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
-    <state width="1396" height="174" key="GridCell.Tab.0.right" timestamp="1575535216474">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1575561388290">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
     <state width="1396" height="174" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
     <state x="221" y="61" key="SettingsEditor" timestamp="1575512045924">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575512045924" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575594826313">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575512392292">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575594826313" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575512392292" />
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575427517163">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1575427517163" />
-    <state x="454" y="220" key="git4idea.merge.GitPullDialog" timestamp="1575594837623">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="401" y="154" key="git4idea.merge.GitPullDialog" timestamp="1575556060558">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="454" y="220" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1575594837623" />
-    <state x="491" y="277" key="git4idea.ui.GitUnstashDialog" timestamp="1575594806077">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="491" y="277" key="git4idea.ui.GitUnstashDialog/0.0.1440.860@0.0.1440.860" timestamp="1575594806077" />
+    <state x="401" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1575556060558" />
     <state x="383" y="180" key="search.everywhere.popup" timestamp="1575511660740">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
