@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="12.5提交">
+    <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/ly/wrapperClass/WrapperClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ly/wrapperClass/WrapperClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1UQ18s8ShC4yK5f14OylPdMQl9X" />
@@ -40,9 +48,22 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
   </component>
-  <component name="RunManager" selected="Application.MyObj">
+  <component name="RunManager" selected="Application.WrapperClassTest">
+    <configuration name="MethodFinalize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ly.myObjTest.MethodFinalize" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ly.myObjTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyObj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ly.myObjTest.MyObj" />
       <module name="myTest" />
@@ -82,9 +103,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WrapperClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ly.wrapperClass.WrapperClassTest" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ly.wrapperClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WrapperClassTest" />
         <item itemvalue="Application.MyObj" />
+        <item itemvalue="Application.MethodFinalize" />
         <item itemvalue="Application.ObjTest" />
         <item itemvalue="Application.SchoolTest" />
       </list>
@@ -117,7 +153,6 @@
       <workItem from="1575453896055" duration="10000" />
       <workItem from="1575453946665" duration="30000" />
       <workItem from="1575511377213" duration="6524000" />
-      <workItem from="1575643899194" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="匿名内部类">
       <created>1575512144333</created>
@@ -126,14 +161,35 @@
       <option name="project" value="LOCAL" />
       <updated>1575512144333</updated>
     </task>
-    <task id="LOCAL-00002" summary="12.5提交">
-      <created>1575561478405</created>
+    <task id="LOCAL-00002" summary="拉代码">
+      <created>1575594865648</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1575561478405</updated>
+      <updated>1575594865648</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交代码">
+      <created>1575595015068</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575595015068</updated>
+    </task>
+    <task id="LOCAL-00004" summary="拉代码">
+      <created>1575595098594</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575595098594</updated>
+    </task>
+    <task id="LOCAL-00005" summary="完善Object类常用方法学习">
+      <created>1575620912694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575620912694</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,57 +210,58 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="匿名内部类" />
-    <MESSAGE value="12.5提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.5提交" />
+    <MESSAGE value="提交代码" />
+    <MESSAGE value="拉代码" />
+    <MESSAGE value="完善Object类常用方法学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善Object类常用方法学习" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="498" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1575561161845">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="498" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575561161845" />
-    <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1575514231872" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1575561623548">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575561623548" />
-    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575512143787" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1575561634285">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575561634285" />
-    <state width="1396" height="174" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1575561634285">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575561634285" />
-    <state width="1396" height="174" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1575561634285">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575561634285" />
-    <state width="1396" height="174" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1575561634285">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575561634285" />
-    <state width="1396" height="174" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575535216474" />
-    <state x="221" y="61" key="SettingsEditor" timestamp="1575512045924">
+    <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1575625255875">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575512045924" />
-    <state x="296" y="137" key="Vcs.Push.Dialog.v2" timestamp="1575561481639">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="498" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575561161845" />
+    <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1575625255875" />
+    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1575626182019">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="296" y="137" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575561481639" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575512392292" />
+    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575626182019" />
+    <state width="1396" height="185" key="GridCell.Tab.0.bottom" timestamp="1575625300748">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
+    <state width="1396" height="185" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575625300748" />
+    <state width="1396" height="185" key="GridCell.Tab.0.center" timestamp="1575625300748">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
+    <state width="1396" height="185" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1575625300748" />
+    <state width="1396" height="185" key="GridCell.Tab.0.left" timestamp="1575625300748">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
+    <state width="1396" height="185" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1575625300748" />
+    <state width="1396" height="185" key="GridCell.Tab.0.right" timestamp="1575625300748">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
+    <state width="1396" height="185" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575625300748" />
+    <state x="221" y="61" key="SettingsEditor" timestamp="1575624464306">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575624464306" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575620919196">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575620919196" />
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575427517163">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1575427517163" />
-    <state x="401" y="154" key="git4idea.merge.GitPullDialog" timestamp="1575644282425">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="423" y="182" key="git4idea.merge.GitPullDialog" timestamp="1575595414904">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="401" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1575644282425" />
+    <state x="401" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1575556060558" />
+    <state x="423" y="182" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1575595414904" />
     <state x="383" y="180" key="search.everywhere.popup" timestamp="1575511660740">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

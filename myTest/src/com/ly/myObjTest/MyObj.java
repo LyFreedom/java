@@ -1,5 +1,4 @@
 package com.ly.myObjTest;
-
 /**
  * Object类:
  *      超类、基类,所有类的直接或间接父类,位于继承树的最顶层.
@@ -27,6 +26,10 @@ package com.ly.myObjTest;
  *          public String toString(){}
  *          返回该对象的字符串表示（表现形式）
  *          可以根据程序需求覆盖该方法，如：展示对象各个属性值
+ *  equals()方法
+ *          public boolean equals(Object obj){}
+ *          默认实现为(this == obj),比较两个对象地址是否相同。
+ *          可进行覆盖，比较两个对象的内容是否相同
  */
 public class MyObj {
     public static void main(String[] args) {
@@ -61,11 +64,24 @@ public class MyObj {
             System.out.println(object.hashCode()+"\t"+object);
         }
         //toString()方法
-        System.out.println(o.toString());
         System.out.println("------------------------------");
+        System.out.println(o.toString());
         Object o1 = new Teacher();
         System.out.println(o1.getClass().getName());  //对象名称
         System.out.println(Integer.toHexString(o1.hashCode())); //十进制转十六进制
         System.out.println(o1); //重写toString（）方法后，打印对象输出的是重写的返回值Hello World!
+        //equals()方法
+        System.out.println("------------------------------");
+        Object o2 = new Object();
+        System.out.println(o1.equals(o2)); //封装成方法可被覆盖,可人为干预
+        System.out.println(o1 == o2); //无法人为干预,,虽然equals()底层也是这样实现
+        System.out.println("------------------------------");
+        //两个地址不同,而内容相同的对象(可以进行比较)
+        People people1 = new People("tom",20,"man",2000);
+        People people2 = new People("tom",20,"man",2000);
+        System.out.println(people1.equals(people2));
+        System.out.println(people1.hashCode() + "----" + people2.hashCode());
+        System.out.println(people1.toString());
+        System.out.println(people1.equals(people2));
     }
 }
