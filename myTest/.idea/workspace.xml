@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ly/myObjTest/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School$1AdvencedTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School$1AdvencedTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School$1BeginnerTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School$1BeginnerTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/demo/School.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ly/demo/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/demo/School.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ly/myObjTest/MyObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/myObjTest/MyObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ly/myObjTest/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/myObjTest/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +18,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1UQ18s8ShC4yK5f14OylPdMQl9X" />
@@ -132,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575512144333</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="拉代码">
+      <created>1575594865648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575594865648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +159,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="匿名内部类" />
-    <option name="LAST_COMMIT_MESSAGE" value="匿名内部类" />
+    <MESSAGE value="拉代码" />
+    <MESSAGE value="提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1575561161845">
@@ -161,10 +169,10 @@
     </state>
     <state x="498" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575561161845" />
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1575514231872" />
-    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1575512143787">
+    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1575594941261">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575512143787" />
+    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575594941261" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1575561388290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -189,10 +197,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575512045924" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575512392292">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575594974251">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575512392292" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575594974251" />
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575427517163">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
