@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ly/wrapperClass/WrapperClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ly/wrapperClass/WrapperClassTest1.java" afterDir="false" />
+    <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="完善Object类常用方法学习">
+      <change afterPath="$PROJECT_DIR$/src/com/ly/listTest/ListTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ly/wrapperClass/WrapperClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/wrapperClass/WrapperClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ly/wrapperClass/WrapperClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/wrapperClass/WrapperClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager" selected="Application.WrapperClassTest1">
     <configuration name="MethodFinalize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -156,6 +153,7 @@
       <workItem from="1575453946665" duration="30000" />
       <workItem from="1575511377213" duration="6524000" />
       <workItem from="1575682832059" duration="12913000" />
+      <workItem from="1576399804867" duration="456000" />
     </task>
     <task id="LOCAL-00001" summary="匿名内部类">
       <created>1575512144333</created>
@@ -238,9 +236,10 @@
     </state>
     <state x="498" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575561161845" />
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1575625255875" />
-    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1575708983595">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1576400325798">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576400325798" />
     <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575708983595" />
     <state width="403" height="466" key="DebuggerActiveHint" timestamp="1575701204439">
       <screen x="0" y="0" width="1440" height="860" />
@@ -290,9 +289,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1396" height="270" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
-    <state x="221" y="61" key="SettingsEditor" timestamp="1575686265083">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="210" y="12" key="SettingsEditor" timestamp="1576400349256">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="210" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576400349256" />
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575686265083" />
     <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575683187045">
       <screen x="0" y="0" width="1440" height="860" />
