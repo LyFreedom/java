@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="完善Object类常用方法学习">
-      <change afterPath="$PROJECT_DIR$/src/com/ly/listTest/ListTest1.java" afterDir="false" />
+    <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/listTest/ListTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/listTest/TestArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ly/listTest/TestArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/wrapperClass/WrapperClassTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/wrapperClass/WrapperClassTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ly/listTest/ListTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/listTest/ListTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +51,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.WrapperClassTest1">
-    <configuration name="MethodFinalize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.myObjTest.MethodFinalize" />
+  <component name="RunManager" selected="Application.TestArrayList">
+    <configuration name="ListTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ly.listTest.ListTest1" />
       <module name="myTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ly.myObjTest.*" />
+          <option name="PATTERN" value="com.ly.listTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyObj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.myObjTest.MyObj" />
+    <configuration name="TestArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ly.listTest.TestArrayList" />
       <module name="myTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ly.myObjTest.*" />
+          <option name="PATTERN" value="com.ly.listTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestArrayList" />
+        <item itemvalue="Application.ListTest1" />
         <item itemvalue="Application.WrapperClassTest1" />
         <item itemvalue="Application.WrapperClass2" />
         <item itemvalue="Application.WrapperClassTest" />
-        <item itemvalue="Application.MyObj" />
-        <item itemvalue="Application.MethodFinalize" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +157,7 @@
       <workItem from="1575453946665" duration="30000" />
       <workItem from="1575511377213" duration="6524000" />
       <workItem from="1575682832059" duration="12913000" />
-      <workItem from="1576399804867" duration="456000" />
+      <workItem from="1576399804867" duration="12067000" />
     </task>
     <task id="LOCAL-00001" summary="匿名内部类">
       <created>1575512144333</created>
@@ -204,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575683131321</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="集合相关">
+      <created>1576400396825</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576400396825</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,18 +239,23 @@
     <MESSAGE value="提交代码" />
     <MESSAGE value="拉代码" />
     <MESSAGE value="完善Object类常用方法学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善Object类常用方法学习" />
+    <MESSAGE value="集合相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合相关" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1576401517072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1576401517072" />
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1575625255875">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="498" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575561161845" />
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1575625255875" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1576400325798">
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1576400395012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576400325798" />
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576400395012" />
     <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575708983595" />
     <state width="403" height="466" key="DebuggerActiveHint" timestamp="1575701204439">
       <screen x="0" y="0" width="1440" height="860" />
@@ -253,25 +269,25 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="170" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1575683835683" />
-    <state width="1396" height="184" key="GridCell.Tab.0.bottom" timestamp="1575704084445">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1576420376482">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576420376482" />
     <state width="1396" height="184" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575704084445" />
-    <state width="1396" height="184" key="GridCell.Tab.0.center" timestamp="1575704084445">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1576420376482">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576420376482" />
     <state width="1396" height="184" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1575704084445" />
-    <state width="1396" height="184" key="GridCell.Tab.0.left" timestamp="1575704084445">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1576420376482">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576420376482" />
     <state width="1396" height="184" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1575704084445" />
-    <state width="1396" height="184" key="GridCell.Tab.0.right" timestamp="1575704084445">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1576420376482">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575561388290" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576420376482" />
     <state width="1396" height="184" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575704084445" />
     <state width="1396" height="270" key="GridCell.Tab.1.bottom" timestamp="1575702991520">
       <screen x="0" y="0" width="1440" height="860" />
@@ -289,14 +305,15 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1396" height="270" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
-    <state x="210" y="12" key="SettingsEditor" timestamp="1576400349256">
+    <state x="210" y="12" key="SettingsEditor" timestamp="1576404851549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="210" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576400349256" />
+    <state x="210" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576404851549" />
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575686265083" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575683187045">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="296" y="137" key="Vcs.Push.Dialog.v2" timestamp="1576400415168">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="296" y="137" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576400415168" />
     <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575683187045" />
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575427517163">
       <screen x="0" y="0" width="1440" height="860" />
@@ -315,9 +332,10 @@
     </state>
     <state x="401" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1575556060558" />
     <state x="423" y="182" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1575683869280" />
-    <state x="383" y="180" key="search.everywhere.popup" timestamp="1575511660740">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="363" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1576418780615">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="363" y="152" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576418780615" />
     <state x="383" y="180" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1575511660740" />
   </component>
 </project>
