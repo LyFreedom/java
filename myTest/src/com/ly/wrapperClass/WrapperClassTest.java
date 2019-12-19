@@ -17,12 +17,12 @@ public class WrapperClassTest {
 //        System.out.println(wc);
 //        Object object = new Byte((byte)20);
         Short s = new Short("10");
-        System.out.println(s.byteValue());
-        System.out.println(s.shortValue());
-        System.out.println(s.intValue());
-        System.out.println(s.longValue());
-        System.out.println(s.floatValue());
-        System.out.println(s.doubleValue());
+        System.out.println(s.byteValue());  //10
+        System.out.println(s.shortValue()); //10
+        System.out.println(s.intValue()); //10
+        System.out.println(s.longValue()); //10
+        System.out.println(s.floatValue()); //10.0
+        System.out.println(s.doubleValue()); //10.0
 
         //将字符串转成byte
         byte b1 = Byte.parseByte("123");
@@ -39,7 +39,7 @@ public class WrapperClassTest {
         Byte b = 10; //自动装箱
         byte b5 = b; //自动拆箱
 
-        m(100);
+        m(100);  //100
     }
 
     public static void m(Object o){
