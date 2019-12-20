@@ -16,11 +16,19 @@ public class StringTest2 {
         stringBuffer.append("World");
         System.out.println(stringBuffer); //helloWorld
         System.out.println(appendEnds("13892153995"));
+        System.out.println(webAddress("baidu"));
     }
     //获取邮箱名方法
     public static String appendEnds(String emailName){
         StringBuffer buffer = new StringBuffer(emailName);
         buffer.append("@163.com");
         return buffer.toString();
+    }
+
+    public static String webAddress(String name){
+        StringBuilder builder = new StringBuilder("www.");
+        builder.append(name);
+        builder.append(".com");
+        return builder.toString();
     }
 }
