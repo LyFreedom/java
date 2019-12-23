@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ly/listTest/CollectionsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ly/listTest/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ly/setTest/SetTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/listTest/FanXingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/listTest/FanXingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/listTest/MyStaticClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/listTest/MyStaticClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ly/listTest/FanXingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/listTest/FanXingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ly/listTest/ListTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/listTest/ListTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ly/stringClassLearn/StringTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/stringClassLearn/StringTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +157,7 @@
       <workItem from="1576399804867" duration="12123000" />
       <workItem from="1576591637457" duration="2976000" />
       <workItem from="1576850000147" duration="5411000" />
-      <workItem from="1577105680567" duration="4840000" />
+      <workItem from="1577105680567" duration="5796000" />
     </task>
     <task id="LOCAL-00001" summary="匿名内部类">
       <created>1575512144333</created>
@@ -240,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576855464720</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="泛型">
+      <created>1577113864035</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577113864035</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,10 +281,10 @@
     </state>
     <state x="498" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577111327514" />
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1575625255875" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1577113838116">
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1577113862410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577113838116" />
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577113862410" />
     <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575708983595" />
     <state width="403" height="466" key="DebuggerActiveHint" timestamp="1575701204439">
       <screen x="0" y="0" width="1440" height="860" />
@@ -340,10 +343,10 @@
     </state>
     <state x="210" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576851118424" />
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575686265083" />
-    <state x="296" y="137" key="Vcs.Push.Dialog.v2" timestamp="1576855473534">
+    <state x="296" y="137" key="Vcs.Push.Dialog.v2" timestamp="1577113907984">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="296" y="137" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576855473534" />
+    <state x="296" y="137" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577113907984" />
     <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575683187045" />
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575427517163">
       <screen x="0" y="0" width="1440" height="860" />
@@ -362,10 +365,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="521" y="220" key="git4idea.merge.GitMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1575683219384" />
-    <state x="401" y="154" key="git4idea.merge.GitPullDialog" timestamp="1576850060373">
+    <state x="401" y="154" key="git4idea.merge.GitPullDialog" timestamp="1577113895426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="401" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1576850060373" />
+    <state x="401" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1577113895426" />
     <state x="423" y="182" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1575683869280" />
     <state x="363" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1576418780615">
       <screen x="0" y="0" width="1366" height="728" />
