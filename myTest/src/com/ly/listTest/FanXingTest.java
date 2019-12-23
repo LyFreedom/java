@@ -11,11 +11,13 @@ import java.util.ArrayList;
  */
 public class FanXingTest {
     public static void main(String[] args) {
+        //实例泛型
         ArrayList<Employee> arrayList = new ArrayList<Employee>();
         arrayList.add(new Employee("张三",25,2550.0,"开发","1994-03-26"));
 //        for (int i = 0; i < arrayList.size(); i++) {
 //            System.out.println(arrayList.get(i).getName());
 //        }
+        //静态泛型
         MyStaticClass.method(123); //class java.lang.Integer
         MyStaticClass.method(123.0); //class java.lang.Double
         //MyStaticClass.method("hello"); //class java.lang.String
