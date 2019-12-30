@@ -10,6 +10,8 @@ import java.util.Set;
  *      JDK1.2版本，线程不安全，运行效率快；允许用null值作为key或是value.
  * Hashtable:
  *      JDK1.0版本,线程安全,运行效率慢;不允许null作为key或是value.
+ * Properties:
+ *
  */
 public class HashMapApply {
     public static void main(String[] args) {
