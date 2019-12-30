@@ -1,9 +1,7 @@
 package com.ly.mapTest;
-
 import java.util.Map;
 import java.util.Properties;
 import java.util.TreeMap;
-
 /**
  * Properties:
  *      Hashtable的子类，要求key和value 都是String .通常用于配置文件的读取。
