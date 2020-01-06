@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/myException/AgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/myException/ExceptionBySelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/myException/SexMatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/myException/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/myException/TestOverrideExceptionMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myTest/test/myException/TransferException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/test/myException/TransferException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/myException/TestThrowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/myException/TestThrowException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/myException/TransferException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/myException/TransferException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,15 +68,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
-  <component name="RunManager" selected="Application.TestLinkedList">
-    <configuration name="ListTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.listTest.ListTest1" />
+  <component name="RunManager" selected="Application.TestThrowException">
+    <configuration name="ExceptionBySelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.myException.ExceptionBySelf" />
       <module name="myTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ly.listTest.*" />
+          <option name="PATTERN" value="test.myException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.listTest.TestArrayList" />
+    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.myException.ExceptionTest" />
       <module name="myTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ly.listTest.*" />
+          <option name="PATTERN" value="test.myException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.listTest.TestLinkedList" />
+    <configuration name="TestOverrideExceptionMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.myException.TestOverrideExceptionMethod" />
       <module name="myTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ly.listTest.*" />
+          <option name="PATTERN" value="test.myException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.wrapperClass.WrapperClass2" />
+    <configuration name="TestThrowException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.myException.TestThrowException" />
       <module name="myTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ly.wrapperClass.*" />
+          <option name="PATTERN" value="test.myException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.wrapperClass.WrapperClassTest1" />
+    <configuration name="TransferException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.myException.TransferException" />
       <module name="myTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ly.wrapperClass.*" />
+          <option name="PATTERN" value="test.myException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestLinkedList" />
-        <item itemvalue="Application.TestArrayList" />
-        <item itemvalue="Application.ListTest1" />
-        <item itemvalue="Application.WrapperClassTest1" />
-        <item itemvalue="Application.WrapperClass2" />
+        <item itemvalue="Application.TestThrowException" />
+        <item itemvalue="Application.TestOverrideExceptionMethod" />
+        <item itemvalue="Application.ExceptionBySelf" />
+        <item itemvalue="Application.TransferException" />
+        <item itemvalue="Application.ExceptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,10 +175,13 @@
       <workItem from="1575511377213" duration="6524000" />
       <workItem from="1575682832059" duration="12913000" />
       <workItem from="1576399804867" duration="12123000" />
-      <workItem from="1576591637457" duration="2891000" />
-      <workItem from="1576827849106" duration="1186000" />
-      <workItem from="1576890737653" duration="595000" />
-      <workItem from="1578126920518" duration="394000" />
+      <workItem from="1576591637457" duration="2976000" />
+      <workItem from="1576850000147" duration="5411000" />
+      <workItem from="1577105680567" duration="6052000" />
+      <workItem from="1577195821657" duration="4429000" />
+      <workItem from="1577507612279" duration="17476000" />
+      <workItem from="1578057731898" duration="6409000" />
+      <workItem from="1578221069736" duration="7643000" />
     </task>
     <task id="LOCAL-00001" summary="匿名内部类">
       <created>1575512144333</created>
@@ -221,7 +246,70 @@
       <option name="project" value="LOCAL" />
       <updated>1576422492519</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="集合相关">
+      <created>1576594647093</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576594647093</updated>
+    </task>
+    <task id="LOCAL-00011" summary="泛型">
+      <created>1576855464720</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576855464720</updated>
+    </task>
+    <task id="LOCAL-00012" summary="泛型">
+      <created>1577113864035</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577113864035</updated>
+    </task>
+    <task id="LOCAL-00013" summary="泛型">
+      <created>1577114858923</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1577114858923</updated>
+    </task>
+    <task id="LOCAL-00014" summary="set集合">
+      <created>1577200498310</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1577200498310</updated>
+    </task>
+    <task id="LOCAL-00015" summary="set、map集合">
+      <created>1577632568411</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1577632568411</updated>
+    </task>
+    <task id="LOCAL-00016" summary="map完结">
+      <created>1577716906581</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577716906581</updated>
+    </task>
+    <task id="LOCAL-00017" summary="map完结">
+      <created>1577717745298</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1577717745298</updated>
+    </task>
+    <task id="LOCAL-00018" summary="map完结">
+      <created>1578064818298</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578064818298</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,102 +334,115 @@
     <MESSAGE value="拉代码" />
     <MESSAGE value="完善Object类常用方法学习" />
     <MESSAGE value="集合相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合相关" />
+    <MESSAGE value="泛型" />
+    <MESSAGE value="set集合" />
+    <MESSAGE value="set、map集合" />
+    <MESSAGE value="map完结" />
+    <option name="LAST_COMMIT_MESSAGE" value="map完结" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1576401517072">
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1577545705616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1576401517072" />
-    <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1575625255875">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1577545705616" />
+    <state x="498" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1578231658178">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="498" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575561161845" />
+    <state x="498" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578231658178" />
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1575625255875" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1576594601004">
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1578064815765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576594601004" />
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578064815765" />
     <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575708983595" />
     <state width="403" height="466" key="DebuggerActiveHint" timestamp="1575701204439">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="403" height="466" key="DebuggerActiveHint/0.0.1440.860@0.0.1440.860" timestamp="1575701204439" />
-    <state x="136" y="67" key="DiffContextDialog" timestamp="1578277334174">
+    <state x="136" y="67" key="DiffContextDialog" timestamp="1575683185751">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="136" y="67" key="DiffContextDialog/0.0.1440.860@0.0.1440.860" timestamp="1578277334174" />
+    <state x="136" y="67" key="DiffContextDialog/0.0.1440.860@0.0.1440.860" timestamp="1575683185751" />
     <state x="500" y="170" key="FileChooserDialogImpl" timestamp="1575683835683">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="170" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1575683835683" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1576593826183">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578233286202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576593826183" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578233286202" />
     <state width="1396" height="184" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575704084445" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1576593826183">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578233286202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576593826183" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578233286202" />
     <state width="1396" height="184" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1575704084445" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1576593826183">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578233286202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576593826183" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578233286202" />
     <state width="1396" height="184" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1575704084445" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1576593826183">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578233286202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576593826183" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578233286202" />
     <state width="1396" height="184" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575704084445" />
-    <state width="1396" height="270" key="GridCell.Tab.1.bottom" timestamp="1575702991520">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1396" height="270" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
-    <state width="1396" height="270" key="GridCell.Tab.1.center" timestamp="1575702991520">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1396" height="270" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
-    <state width="1396" height="270" key="GridCell.Tab.1.left" timestamp="1575702991520">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1396" height="270" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
-    <state width="1396" height="270" key="GridCell.Tab.1.right" timestamp="1575702991520">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1396" height="270" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
-    <state x="210" y="12" key="SettingsEditor" timestamp="1576404851549">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1577887569873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="210" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576404851549" />
-    <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575686265083" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1576748796506">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577887569873" />
+    <state width="1396" height="270" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1577887569873">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="296" y="137" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576422494347" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1576748796506" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577887569873" />
+    <state width="1396" height="270" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1577887569873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577887569873" />
+    <state width="1396" height="270" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1577887569873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577887569873" />
+    <state width="1396" height="270" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
+    <state x="210" y="12" key="SettingsEditor" timestamp="1576851118424">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="210" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576851118424" />
+    <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575686265083" />
+    <state x="296" y="137" key="Vcs.Push.Dialog.v2" timestamp="1578064841508">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="296" y="137" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578064841508" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575683187045" />
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575427517163">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1575427517163" />
-    <state x="282" y="165" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1575702409815">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577110055847">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1577110055847" />
+    <state x="268" y="122" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577715048499">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="268" y="122" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1577715048499" />
     <state x="282" y="165" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.860@0.0.1440.860" timestamp="1575702409815" />
     <state x="521" y="220" key="git4idea.merge.GitMergeDialog" timestamp="1575683219384">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="521" y="220" key="git4idea.merge.GitMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1575683219384" />
-    <state x="423" y="182" key="git4idea.merge.GitPullDialog" timestamp="1578277307373">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="401" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1575556060558" />
-    <state x="423" y="182" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1578277307373" />
-    <state x="363" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1576418780615">
+    <state x="401" y="154" key="git4idea.merge.GitPullDialog" timestamp="1577113895426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="152" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576418780615" />
+    <state x="401" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1577113895426" />
+    <state x="423" y="182" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1575683869280" />
+    <state x="363" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1578225316258">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="152" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578225316258" />
     <state x="383" y="180" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1575511660740" />
   </component>
 </project>
