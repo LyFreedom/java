@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ly/listTest/FanXingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ly/listTest/TestLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myTest/com/ly/listTest/TestArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/com/ly/listTest/TestArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ly/listTest/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ly/listTest/TestArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +154,9 @@
       <workItem from="1575682832059" duration="12913000" />
       <workItem from="1576399804867" duration="12123000" />
       <workItem from="1576591637457" duration="2891000" />
+      <workItem from="1576827849106" duration="1186000" />
+      <workItem from="1576890737653" duration="595000" />
+      <workItem from="1578126920518" duration="394000" />
     </task>
     <task id="LOCAL-00001" summary="匿名内部类">
       <created>1575512144333</created>
@@ -268,10 +267,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="403" height="466" key="DebuggerActiveHint/0.0.1440.860@0.0.1440.860" timestamp="1575701204439" />
-    <state x="136" y="67" key="DiffContextDialog" timestamp="1575683185751">
+    <state x="136" y="67" key="DiffContextDialog" timestamp="1578277334174">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="136" y="67" key="DiffContextDialog/0.0.1440.860@0.0.1440.860" timestamp="1575683185751" />
+    <state x="136" y="67" key="DiffContextDialog/0.0.1440.860@0.0.1440.860" timestamp="1578277334174" />
     <state x="500" y="170" key="FileChooserDialogImpl" timestamp="1575683835683">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -317,11 +316,11 @@
     </state>
     <state x="210" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576404851549" />
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1575686265083" />
-    <state x="296" y="137" key="Vcs.Push.Dialog.v2" timestamp="1576422494347">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1576748796506">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="296" y="137" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576422494347" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1575683187045" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1576748796506" />
     <state x="415" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1575427517163">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -334,11 +333,11 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="521" y="220" key="git4idea.merge.GitMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1575683219384" />
-    <state x="423" y="182" key="git4idea.merge.GitPullDialog" timestamp="1575683869280">
+    <state x="423" y="182" key="git4idea.merge.GitPullDialog" timestamp="1578277307373">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="401" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1575556060558" />
-    <state x="423" y="182" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1575683869280" />
+    <state x="423" y="182" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1578277307373" />
     <state x="363" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1576418780615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
