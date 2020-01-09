@@ -14,10 +14,27 @@ public class TestProducerAndConsumer {
        // System.out.println(myQueue.poll());
         Producer1 producer = new Producer1(myQueue);
         producer.start();
-        Producer2 producer2 = new Producer2(myQueue);
-        producer2.start();
+//        Producer2 producer2 = new Producer2(myQueue);
+//        producer2.start();
+        Consumer consumer = new Consumer(myQueue);
+        consumer.start();
         System.out.println("以下是遍历内容");
         myQueue.show();
+    }
+}
+
+class Consumer extends Thread{
+    MyQueue myQueue;
+
+    public Consumer(MyQueue myQueue) {
+        this.myQueue = myQueue;
+    }
+
+    @Override
+    public void run() {
+        for (int i = 0;i <= 4;i++){
+            System.out.println(myQueue.poll() + "被移除");
+        }
     }
 }
 
@@ -59,27 +76,29 @@ class MyQueue{
     private int size=4;
     //存入队列
     public synchronized void offer(Object o){
-        if(values.size() == size){
+        while (values.size() == size){
             //进来线程，停下
             try {
                 this.wait();
+                //被唤醒
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
+        this.notifyAll();
         System.out.println(Thread.currentThread().getName()+"存入第"+(values.size()+1)+"个元素");
         values.add(o);
     }
     //从队列取出
     public synchronized Object poll(){
-        if (values.size() == 0){
+        while (values.size() == 0){
             try {
                 this.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-        this.notify();//唤醒因myQueue对象而进入无限期等待的线程对象（一个）
+        this.notifyAll();//唤醒因myQueue对象而进入无限期等待的线程对象（全部）
         return values.remove(0);
     }
 
