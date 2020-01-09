@@ -3,6 +3,9 @@ package TreadLearning;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 消费者和生产者之间的关系
+ */
 public class TestProducerAndConsumer {
     public static void main(String[] args) {
         MyQueue myQueue = new MyQueue();
