@@ -46,6 +46,15 @@ import java.util.concurrent.CopyOnWriteArraySet;
  *              Map<String,String> map = new ConcurrentHashMap<String,String>();
  *          }
  *      }
+ * 总结：
+ *      ExecutorService线程池接口、Executors工厂
+ *      Callable线程任务、Future异步返回值
+ *      Lock、ReentrantLock重入锁、ReentrantReadWrite读写锁
+ *      CopyOnWriteArrayList线程安全的ArrayList
+ *      CopyOnWriteArraySet线程安全的Set
+ *      ConcurrentHashMap线程安全的HashMap
+ *      ConcurrentLinkedQueue线程安全的Queue
+ *      ArrayBlockingQueue线程安全的阻塞Queue.（生产者、消费者）
  */
 public class CollectionThread {
     public static void main(String[] args) {
