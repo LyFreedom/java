@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestThreadPool/CallableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestThreadPool/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestThreadPool/ReentrantReadWriteLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestThreadPool/ThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testThreadCollection/CollectionThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testThreadCollection/CollectionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testThreadCollection/CollectionThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +349,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="匿名内部类" />
     <MESSAGE value="提交代码" />
-    <MESSAGE value="拉代码" />
     <MESSAGE value="完善Object类常用方法学习" />
     <MESSAGE value="集合相关" />
     <MESSAGE value="泛型" />
@@ -361,7 +356,8 @@
     <MESSAGE value="set、map集合" />
     <MESSAGE value="map完结" />
     <MESSAGE value="多线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程" />
+    <MESSAGE value="拉代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="拉代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1577545705616">
