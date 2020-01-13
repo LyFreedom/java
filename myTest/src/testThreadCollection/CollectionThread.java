@@ -1,9 +1,9 @@
 package testThreadCollection;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
  * Collection体系集合下，除Vector以外的线程安全集合
@@ -26,6 +26,26 @@ import java.util.concurrent.CopyOnWriteArrayList;
  *              List<String> list = new CopyOnWriteArrayList<String>();
  *          }
  *      }
+ * CopyOnWriteArraySet:
+ *      线程安全的Set，底层使用CopyOnWriteArrayList实现
+ *      唯一不同在于,使用addIfAbsent()添加元素，会遍历数组
+ *      如存在元素，则不添加（扔掉副本）。
+ *      public class TestCopyOnWriteArrayList{
+ *          public static void main(String [] args){
+ *              List<String> list = new CopyOnWriteArrayList<String>();
+ *          }
+ *      }
+ * ConcurrentHashMap:
+ *      初始容量默认为16段(Segment),使用分段锁设计。
+ *      不对整个Map加锁，而是为每个Segment加锁。
+ *      当多个对象存入同一个Segment时,才需要互斥。
+ *      最理想状态为16个对象分别存入16个Segment,并行数量16.
+ *      使用方式与HashMap无异。
+ *      public class TestConcurrentHashMap{
+ *          public static void main(String[] args){
+ *              Map<String,String> map = new ConcurrentHashMap<String,String>();
+ *          }
+ *      }
  */
 public class CollectionThread {
     public static void main(String[] args) {
@@ -36,5 +56,11 @@ public class CollectionThread {
         list.add("A");
         //接口引用指向实现类对象，更容易解耦和更换实现类
         List<Integer> list1 = new CopyOnWriteArrayList<Integer>();
+        Set<String> set = new CopyOnWriteArraySet<String>();
+        set.add("A");
+        Map<String,String> map = new ConcurrentHashMap<String, String>();
+        ConcurrentHashMap<Integer,Integer> map1 = new ConcurrentHashMap<Integer, Integer>();
+        map1.put(1,123);
+        map.put("a","hello");
     }
 }
