@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/testThreadCollection/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day1/FileInputStreamTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day1/IOTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day1/target.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestIO/day1/FileInputStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestIO/day1/IOTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestIO/day1/target.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testThreadCollection/CollectionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testThreadCollection/CollectionThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myTest/testThreadCollection/CollectionThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/testThreadCollection/CollectionThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myTest/testThreadCollection/QueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTest/testThreadCollection/QueueTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +59,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -62,15 +71,28 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.QueueTest">
-    <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestThreadPool.CallableTest" />
+  <component name="RunManager" selected="Application.FileInputStreamTest">
+    <configuration name="FileInputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestIO.day1.FileInputStreamTest" />
       <module name="myTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestThreadPool.*" />
+          <option name="PATTERN" value="TestIO.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestIO.day1.IOTest1" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestIO.day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestThreadPool.ThreadPoolTest" />
-      <module name="myTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestThreadPool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileInputStreamTest" />
+        <item itemvalue="Application.IOTest1" />
         <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.LockTest" />
         <item itemvalue="Application.ReentrantReadWriteLockTest" />
-        <item itemvalue="Application.CallableTest" />
-        <item itemvalue="Application.ThreadPoolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +189,7 @@
       <workItem from="1578401786927" duration="4757000" />
       <workItem from="1578488630696" duration="4419000" />
       <workItem from="1578729993428" duration="17751000" />
+      <workItem from="1578990013857" duration="5829000" />
     </task>
     <task id="LOCAL-00001" summary="匿名内部类">
       <created>1575512144333</created>
@@ -348,6 +358,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="匿名内部类" />
     <MESSAGE value="提交代码" />
     <MESSAGE value="完善Object类常用方法学习" />
@@ -365,6 +376,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1577545705616" />
+    <state x="400" y="343" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1578990704143">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="400" y="343" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1440.860@0.0.1440.860" timestamp="1578990704143" />
     <state x="498" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1578757943758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -387,26 +402,26 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="170" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1575683835683" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578926697050">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1396" height="185" key="GridCell.Tab.0.bottom" timestamp="1578996288154">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578926697050" />
-    <state width="1396" height="185" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1578539866114" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578926697035">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1396" height="185" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1578996288154" />
+    <state width="1396" height="185" key="GridCell.Tab.0.center" timestamp="1578996288154">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578926697035" />
-    <state width="1396" height="185" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1578539866114" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578926697035">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1396" height="185" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1578996288154" />
+    <state width="1396" height="185" key="GridCell.Tab.0.left" timestamp="1578996288154">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578926697035" />
-    <state width="1396" height="185" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1578539866114" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578926697035">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1396" height="185" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1578996288154" />
+    <state width="1396" height="185" key="GridCell.Tab.0.right" timestamp="1578996288154">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578926697035" />
-    <state width="1396" height="185" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1578539866114" />
+    <state width="1396" height="185" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1578996288154" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1577887569873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -427,11 +442,11 @@
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577887569873" />
     <state width="1396" height="270" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
-    <state x="221" y="61" key="SettingsEditor" timestamp="1578294213446">
+    <state x="229" y="52" width="1162" height="738" key="SettingsEditor" timestamp="1578995162370">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="210" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576851118424" />
-    <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1578294213446" />
+    <state x="229" y="52" width="1162" height="738" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1578995162370" />
     <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1578539135989">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
