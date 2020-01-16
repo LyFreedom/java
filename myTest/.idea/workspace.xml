@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075d3f1e-c01c-430f-bb83-7bc9c0afa23f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestIO/day1/objects.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestIO/day2/TestEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day1/BufferedOutputStreamTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day1/ObjectOutputStreamTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day1/Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day1/buffer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day1/objects.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day2/BufferedWriterAndReaderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day2/TestConvertStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day2/TestEncoding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day2/TestTryCatchForStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day2/abc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day2/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day2/chars.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myTest/TestIO/day2/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestIO/day2/BufferedWriterAndReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestIO/day2/TestConvertStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestIO/day2/TestTryCatchForStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestIO/day2/abc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestIO/day2/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestIO/day2/chars.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestIO/day2/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestIO/day1/ObjectOutputStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestIO/day1/ObjectOutputStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestIO/day2/TestEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestIO/day2/TestEncoding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,39 +86,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.TestEncoding">
-    <configuration name="BufferedOutputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestIO.day1.BufferedOutputStreamTest" />
+  <component name="RunManager" selected="Application.TestTryCatchForStream">
+    <configuration name="BufferedWriterAndReaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestIO.day2.BufferedWriterAndReaderTest" />
       <module name="myTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestIO.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileInputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestIO.day1.FileInputStreamTest" />
-      <module name="myTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestIO.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestIO.day1.IOTest1" />
-      <module name="myTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestIO.day1.*" />
+          <option name="PATTERN" value="TestIO.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +113,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestConvertStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestIO.day2.TestConvertStream" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestIO.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestEncoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestIO.day2.TestEncoding" />
       <module name="myTest" />
@@ -133,13 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTryCatchForStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestIO.day2.TestTryCatchForStream" />
+      <module name="myTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestIO.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTryCatchForStream" />
+        <item itemvalue="Application.TestConvertStream" />
+        <item itemvalue="Application.BufferedWriterAndReaderTest" />
         <item itemvalue="Application.TestEncoding" />
         <item itemvalue="Application.ObjectOutputStreamTest" />
-        <item itemvalue="Application.BufferedOutputStreamTest" />
-        <item itemvalue="Application.FileInputStreamTest" />
-        <item itemvalue="Application.IOTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +204,7 @@
       <workItem from="1578729993428" duration="17751000" />
       <workItem from="1578990013857" duration="5829000" />
       <workItem from="1579078279076" duration="6365000" />
+      <workItem from="1579141279248" duration="10386000" />
     </task>
     <task id="LOCAL-00001" summary="匿名内部类">
       <created>1575512144333</created>
@@ -406,26 +426,26 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="170" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1575683835683" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579096276447">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1396" height="185" key="GridCell.Tab.0.bottom" timestamp="1579161753786">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579096276447" />
-    <state width="1396" height="185" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1578996288154" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579096276447">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1396" height="185" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1579161753786" />
+    <state width="1396" height="185" key="GridCell.Tab.0.center" timestamp="1579161753786">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579096276447" />
-    <state width="1396" height="185" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1578996288154" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579096276447">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1396" height="185" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1579161753786" />
+    <state width="1396" height="185" key="GridCell.Tab.0.left" timestamp="1579161753786">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579096276447" />
-    <state width="1396" height="185" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1578996288154" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579096276447">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1396" height="185" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1579161753786" />
+    <state width="1396" height="185" key="GridCell.Tab.0.right" timestamp="1579161753786">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579096276447" />
-    <state width="1396" height="185" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1578996288154" />
+    <state width="1396" height="185" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1579161753786" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1577887569873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -446,11 +466,11 @@
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577887569873" />
     <state width="1396" height="270" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1575702991520" />
-    <state x="35" y="7" width="1325" height="716" key="SettingsEditor" timestamp="1579010482090">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="229" y="52" width="1325" height="716" key="SettingsEditor" timestamp="1579157744649">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="35" y="7" width="1325" height="716" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579010482090" />
-    <state x="229" y="52" width="1162" height="738" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1578995162370" />
+    <state x="229" y="52" width="1162" height="738" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1579157744649" />
     <state x="296" y="137" key="Vcs.Push.Dialog.v2" timestamp="1579012910105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
