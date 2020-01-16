@@ -31,7 +31,7 @@ public class FileInputStreamTest {
                 if (count == -1){
                     break;
                 }
-                for (int i = 0; i < count; i++) {
+                for (int i = 0; i < count; i++) {//根据读取字节的个数，决定打印的次数
                     System.out.print((char)cache[i]);
                 }
                 System.out.println();
@@ -42,4 +42,5 @@ public class FileInputStreamTest {
             e.printStackTrace();
         }
     }
+
 }
